@@ -4,6 +4,10 @@
 
 ROFANet is a novel cross-modality alignment framework designed for Text-based Person Re-identification (T-ReID) under occluded conditions. This project addresses the challenge of retrieving pedestrian images using natural language descriptions in real-world scenarios where pedestrians are frequently heavily occluded.
 
+
+<img width="1622" height="863" alt="图片" src="https://github.com/user-attachments/assets/2559ba3b-a627-4a7d-8497-64e659dd941d" />
+
+
 ## Motivation
 
 Text-based Person Re-identification (T-ReID) aims to retrieve pedestrian images according to natural language descriptions. While this task is increasingly important for multimedia content retrieval, most existing T-ReID methods are developed under ideal conditions with little or no occlusion, making them inadequate for real-world applications. ROFANet tackles this limitation by investigating T-ReID under occluded conditions.
@@ -50,30 +54,6 @@ pip install -r requirements.txt
 
 Refer to the documentation and examples in the repository for detailed usage instructions on training and evaluating ROFANet on T-ReID tasks with occlusion.
 
-## Project Structure
 
 ```
-ROFANet/
-├── models/              # Network architecture implementations
-├── data/               # Dataset and data loading utilities
-├── training/           # Training scripts and utilities
-├── evaluation/         # Evaluation metrics and scripts
-├── configs/            # Configuration files
-└── README.md          # This file
-```
 
-## Citation
-
-If you use ROFANet in your research, please cite this work appropriately.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Contact
-
-For questions or inquiries, please reach out to the repository maintainers.
