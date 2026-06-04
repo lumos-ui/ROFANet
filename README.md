@@ -1,4 +1,4 @@
-# ROFANet: Reliable Occlusion-aware Fine-grained Alignment Network
+# ROFANet: Reliable Occlusion-aware Fine-grained Alignment Network for Text-based Occluded Person Re-Identification
 
 ## Overview
 
